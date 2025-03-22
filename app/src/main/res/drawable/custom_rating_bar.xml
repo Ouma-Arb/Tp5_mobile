@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background layer for empty stars -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#d3d3d3" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Foreground layer for filled stars -->
+    <item android:id="@android:id/progress">
+        <shape>
+            <solid android:color="#FFD700" /> <!-- Gold color -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Secondary layer for stars in progress -->
+    <item android:id="@android:id/secondaryProgress">
+        <shape>
+            <solid android:color="#FF6347" /> <!-- Tomato color -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
